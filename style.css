@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+  
+  html{
+    height: 100%;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+  }
+
+  header {
+    display: flex;
+    justify-content: left;
+  }
+
+  .imgheader {
+    width: 5%;
+  }
+     
+  /*#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }*/
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #52D2BB;
+    color: #000000;
+    border: none;
+    border-radius: 15px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border: 1px solid black;
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
+
+
+  footer{
+    background: #52D2BB;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+}
