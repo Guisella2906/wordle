@@ -60,7 +60,7 @@ const options = {
 //.then(data => {
 
     //console.log(data)
-    let word = "texto";
+    let word = "apple";
     let wordArray= word.toUpperCase().split("");
     console.log(wordArray)
     var actualRow=document.querySelector(".row");
@@ -167,7 +167,7 @@ const options = {
     
     function createRow(){
         rowId++
-        if (rowId <= 5){
+        if (rowId <= 6){
             let newRow =  document.createElement("div");
             newRow.classList.add("row");
             newRow.setAttribute("id", rowId);
